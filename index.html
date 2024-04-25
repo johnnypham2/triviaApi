@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <body>
 
-    <h1 id="question">question</h1>
-    
-    <button id="btn">click me for a question</button>
-    
-    <h2 id="answer">answer</h2>
 
-    <button id="btn2">click me for the answer</button>
-</body>
-<script src="/scripts/app.js"></script>
+
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/assets/18-fascinating-facts-about-teacher-1695689724.jpg" class="card-img-top" alt="..">
+          <div class="card-body">
+            <h5 class="card-title">Teacher</h5>
+            <p id="question">Click the button for your question</p>
+            <button id="btn" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/assets/9EEBAEC1-CAE6-4B47-86CF-9D341DB7B5BC.jpg" class="card-img-top" alt="..">
+          <div class="card-body">
+            <h5 class="card-title">Student</h5>
+            <p id="answer">Click the button to reveal the answer</p>
+            <button id="btn2" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/app.js"></script>
+  </body>
 </html>
